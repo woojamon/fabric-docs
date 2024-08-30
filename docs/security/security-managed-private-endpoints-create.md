@@ -28,6 +28,8 @@ Users with admin permissions to a Microsoft Fabric workspace can create, view, a
 
 1. Specify a name for the private endpoint and copy in the resource identifier for the Azure resource. The resource identifier can be found in the properties tab on the Azure portal page.
 
+    For example, to create a managed private endpoint to access databases on an Azure SQL Managed Instance named "MyInstance", the resource identifier would be `/subscriptions/<subscription-guid>/resourceGroups/<resource-group-name>/providers/Microsoft.Sql/managedInstances/MyInstance`.
+
     When done, select **Create**.  
 
 1. When the managed private endpoint has been provisioned, the Activation status change to *Succeeded*.
